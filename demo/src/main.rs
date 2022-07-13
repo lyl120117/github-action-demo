@@ -11,6 +11,6 @@ mod tests {
 
     #[test]
     fn it_not_works() {
-        assert_eq!(2 + 2, 5);
+        assert_ne!(2 + 2, 5);
     }
 }
